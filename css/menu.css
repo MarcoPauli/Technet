@@ -1,0 +1,75 @@
+:root {
+    --technet: #5CB6F9;
+}
+
+.navRow1{
+    background-color: --technet;
+}
+
+.navTable {
+    background-color: var(--technet);
+    position: fixed;
+    top: 0px;
+    font-weight: bold;
+    height: 95px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    z-index: 3;
+}
+
+.navTable a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.navTable a:hover {
+    color: rgb(74, 73, 73);
+}
+
+.navTable td{
+    align-items: center;
+    width: 16.66%;
+    text-align: center;
+}
+
+#changeThemeBtn {
+    border-radius: 100%;
+    border: none;
+    background-color: black;
+    padding: 3%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#germanImg {
+    width: 30px;
+    height: auto;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+#showOffersMenu {
+    position: fixed;
+    top: 94px;
+    left: 16.66%;
+    width: 16.66%;
+    background-color: var(--technet);
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#showOffersMenu a {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+#showOffersMenu a:hover {
+    color: white;
+}

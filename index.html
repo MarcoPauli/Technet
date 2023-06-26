@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technet</title>
+    <script defer src="js/main.js"></script><!--Main script file for this webpage-->
+    <script defer src="js/language.js"></script><!--Script file to select language-->
+    <script defer src="js/theme.js"></script><!--Script file to change theme-->
+    <link rel="stylesheet" href="css/style.css"><!--Main css file for this webpage-->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/offers.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico"><!--Favicon-->
+    <link rel="manifest" href="manifest.webmanifest">
+    <script defer src="js/menu.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/offers.js" defer></script>
+</head>
+<body>
+    <!--BEGIN HEADER-->
+    <header>
+        <nav class="navigationbar">
+            <table class="navTable">
+                <tr class="navRow1">
+                    <td class="logo1td" title="Startseite">
+                        <a href="index.html">
+                        <img class="logo1img" id="logo1" src="img\logo1.png" alt="Technet Logo">
+                        </a>
+                    </td>
+                    <td title="Angebote" id="offersNav">
+                        <a href="javascript:void(0)">Angebote</a>
+                        <div id="showOffersMenu">
+                            <a href="html/cloud.html">Cloud</a><br><br>
+                            <a href="html/gaming.html">Gaming</a><br><br>
+                            <a href="html/frontend.html">Frontend</a><br><br>
+                            <a href="html/backend.html">Backend</a>
+                        </div>
+                    </td>
+                    <td title="Über uns" id="aboutUsNav"><a href="html/aboutThat.html">Über uns</a></td>
+                    <td title="Kontakt" id="contactNav"><a href="html/contact.html">Kontakt</a></td>
+                    <td id="language" title="Sprache">
+                        <img src="img\german.png" id="germanImg" title="DE" alt="DE">
+                    </td>
+                    <td title="Theme" id="changeThemeId" class="changeTheme"><button id="changeThemeBtn">🌙</button></td>
+                </tr>
+            </table>
+        </nav>
+        <div class="showSloganHeaderDiv"><p id="slogantop">Limitless Performance,</p>
+        <p id="sloganbottom">Endless Possibilities!</p> </div>
+        <div class="offersDiv">
+            <div class="offersTableDiv">
+                <table class="offersTable">
+                    <tr class="offersRow">
+                        <td id="cloudStorage">
+                            <h1>Cloud Storage</h1>
+                            <p id="cloudP">Hol dir so viel Cloudspeicher, wie du brauchst, um Deine Fotos, oder was auch immer du speichern willst, speichern zu können</p>
+                            <a href="html/cloud.html" class="seeMore">mehr dazu</a>
+                        </td>
+                        <td id="gamingServer">
+                            <h1>Gaming Server</h1>
+                            <p id="gamingP">Langeweile? Immer nur arbeiten, arbeiten, arbeiten? Mach Dir jetzt Deinen eigenen Gamingserver, um vom Alltag etwas abschlaten zu können</p>
+                            <a href="html/gaming.html" class="seeMore">mehr dazu</a>
+                        </td>
+                    </tr>
+                    <tr class="offersRow">
+                        <td id="frontendServer">
+                            <h1>Frontend Server</h1>
+                            <p id="frontendP">Du hast ein Unternehmen und willst einfach nur eine simple Webseite hochladen? Dann ist das Frontendhosting genau das Riichtige für Dich!</p>
+                            <a href="html/frontend.html" class="seeMore">mehr dazu</a>
+                        </td>
+                        <td id="backendServer">
+                            <h1>Backend Server</h1>
+                            <p id="backendP">Frontend reicht nicht mehr? Dein Projekt soll jetzt auch serverseitig mit dem Nutzer interagieren können? Dann schnapp Dir doch den Backendserver</p>
+                            <a href="html/backend.html" class="seeMore">mehr dazu</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+    <!--BEGIN MAIN-->
+    <main>
+        
+        
+    </main>
+    <!--BEGIN FOOTER-->
+    <footer>
+        <div id="footerMenu">
+            <a href="html/impressum.html">Impressum</a>
+            <a href="html/contact.html">Kontakt</a>
+            <a href="html/aboutThat.html">Über uns</a>
+        </div><br>
+        <div id="footerOffers">
+            <p id="offersTxt">Angebote:</p>
+            <a href="html/cloud.html">Cloud</a>
+            <a href="html/gaming.html">Gaming</a>
+            <a href="html/frontend.html">Frontend</a>
+            <a href="html/backend.html">Backend</a>
+        </div>
+        <div id="socialMediaDiv">
+            <p id="socMedText">Folge uns auf social media: 
+                <a href="https://www.instagram.com/technet_servers/" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://github.com/Felixk24/Technetserver" target="_blank"><img id="githubLogo" src="img/githubLogo.png"></a>
+            </p>
+        </div>
+        <p id="sloganFooter">⚜️Limitless Performance. Endless Possibilities.⚜️</p>
+        <hr><br>
+        <p id="yearTechnet">2023 Technet GbR</p>
+    </footer>
+</body>
+</html>

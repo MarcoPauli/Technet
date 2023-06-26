@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über uns</title>
+    <script defer src="../js/main.js"></script><!--Main script file for this webpage-->
+    <script defer src="../js/language.js"></script><!--Script file to select language-->
+    <script defer src="../js/theme.js"></script><!--Script file to change theme-->
+    <link rel="stylesheet" href="../css/style.css"><!--Main css file for this webpage-->
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico"><!--Favicon-->
+    <link rel="manifest" href="../manifest.webmanifest">
+    <script defer src="../js/menu.js"></script>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #aboutUsIntroTxt {
+            font-size: 20px;
+        }
+        h2 {
+            color: green;
+        }
+        main a {
+            color: green;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        main a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!--BEGIN HEADER-->
+    <header>
+        <nav class="navigationbar">
+            <table class="navTable">
+                <tr class="navRow1">
+                    <td class="logo1td" title="Startseite">
+                        <a href="..\index.html">
+                        <img class="logo1img" id="logo1" src="..\img\logo1.png" alt="Technet Logo">
+                        </a>
+                    </td>
+                    <td title="Angebote" id="offersNav">
+                        <a href="javascript:void(0)">Angebote</a>
+                        <div id="showOffersMenu">
+                            <a href="../html/cloud.html">Cloud</a><br><br>
+                            <a href="../html/gaming.html">Gaming</a><br><br>
+                            <a href="../html/frontend.html">Frontend</a><br><br>
+                            <a href="../html/backend.html">Backend</a>
+                        </div>
+                    </td>
+                    <td title="Über uns" id="aboutUsNav"><a href="../html/aboutThat.html">Über uns</a></td>
+                    <td title="Kontakt" id="contactNav"><a href="../html/contact.html">Kontakt</a></td>
+                    <td id="language" title="Sprache">
+                        <img src="../img\german.png" id="germanImg" title="DE" alt="DE">
+                    </td>
+                    <td title="Theme" id="changeThemeId" class="changeTheme"><button id="changeThemeBtn">🌜</button></td>
+                </tr>
+            </table>
+        </nav>
+        </header>
+        <main>
+            <div id="aboutUsIntro">
+                <h2>#Über uns</h2>
+                <p id="aboutUsIntroTxt">Wir von technet-Servers sind ein junges und kompetentes Team, das sich zum Ziel gesetzt hat, seine Leidenschaft zum Beruf zu machen und sein Wissen zu nutzen, um anderen Unternehmen die Unterstützung zu bieten, die sie benötigen. Wir reagieren schnell auf Anfragen, beraten Sie gerne bei Fragen oder Problemen, arbeiten Tag und Nacht an der Entwicklung unseres Unternehmens und an unserer Weiterbildung, um ganz exklusiv auf die Wünsche unserer Kunden eingehen zu können. Du willst Dich mit uns in Verbindung setzen? Dann besuch doch mal unsere <a href="../html/contact.html">Kontaktseite</a>!</p>
+                <br><br><br><br><br><br>
+            </div>
+        </main>
+        <!--BEGIN FOOTER-->
+        <footer>
+            <div id="footerMenu">
+                <a href="../html/impressum.html">Impressum</a>
+                <a href="../html/contact.html">Kontakt</a>
+                <a href="../html/aboutThat.html">Über uns</a>
+            </div><br>
+            <div id="footerOffers">
+                <p id="offersTxt">Angebote:</p>
+                <a href="../html/cloud.html">Cloud</a>
+                <a href="../html/gaming.html">Gaming</a>
+                <a href="../html/frontend.html">Frontend</a>
+                <a href="../html/backend.html">Backend</a>
+            </div>
+            <div id="socialMediaDiv">
+                <p id="socMedText">Folge uns auf social media: 
+                    <a href="https://www.instagram.com/technet_servers/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://github.com/Felixk24/Technetserver" target="_blank"><img id="githubLogo" src="../img/githubLogo.png"></a>
+                </p>
+            </div>
+            <p id="sloganFooter">⚜️Limitless Performance. Endless Possibilities.⚜️</p>
+            <hr><br>
+            <p id="yearTechnet">2023 Technet GbR</p>
+        </footer>
+</body>
+</html>

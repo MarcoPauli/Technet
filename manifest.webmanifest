@@ -1,0 +1,18 @@
+
+{
+    "theme_color": "#5CB6F9",
+    "background_color": "#5CB6F9",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/index.html",
+    "name": "Technet",
+    "short_name": "Technet",
+    "description": "Limitless Performance, Endless Possibilities!",
+    "icons": [
+        {
+            "src": "img/favicon.ico",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

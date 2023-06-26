@@ -1,0 +1,50 @@
+body {
+    background-image: url('../img/bgImg.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+
+.offersDiv{
+    
+    min-height: 500px;
+}
+
+.offersDiv a {
+    color: white;
+}
+
+.offersTable .offersRow td{
+    border: none;
+    border-radius: 10px;
+    padding: 90px 60px;
+    color: black;
+    max-width: 807.1px;
+}
+
+.offersTable td {
+    position: static;
+    cursor: pointer;
+    background-image: linear-gradient(blue, #5CB6F9);
+    width: 30%;
+    height: 20%;
+}
+
+.offersTable td:hover {
+    transition-duration: 5s;
+    background-image: linear-gradient(purple, #5CB6F9);
+}
+
+.offersTable {
+    border-spacing: 100px 9px;
+    table-layout: fixed;
+    padding-top: 150px;
+}
+.offersTableDiv{
+    display: grid; 
+    text-align: center
+}
+
+#cloudP, #gamingP, #frontendP, #backendP {
+    /*display: none;*/
+}
