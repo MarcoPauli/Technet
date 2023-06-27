@@ -63,9 +63,9 @@ function calcualteGamerNumber() {
     let gamerNumber = document.getElementById("gamerNumber");
     gamerNumber = Number(gamerNumber.value);
     if (gamerNumber <= 50) {
-        gamerNumber = gamerNumber * 12.5;
+        gamerNumber = gamerNumber * 8.5;
     } else if (51 <= gamerNumber <= 100) {
-        gamerNumber = (gamerNumber - 50) * 10 + 50 * 12.5;
+        gamerNumber = (gamerNumber - 50) * 6 + 50 * 12.5;
     }
     gamingPrice += gamerNumber;
     return gamingPrice;
