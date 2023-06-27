@@ -51,10 +51,10 @@ function calcualteServerRunTime(runTime) {
             gamingPrice =  45;
             break;
         case "6mon":
-            gamingPrice = 80;
+            gamingPrice = 90;
             break;
         case "12mon":
-            gamingPrice = 150;
+            gamingPrice = 175;
     }
     return gamingPrice;
 }
@@ -63,9 +63,9 @@ function calcualteGamerNumber() {
     let gamerNumber = document.getElementById("gamerNumber");
     gamerNumber = Number(gamerNumber.value);
     if (gamerNumber <= 50) {
-        gamerNumber = gamerNumber * 8.5;
+        gamerNumber = gamerNumber * 5.5;
     } else if (51 <= gamerNumber <= 100) {
-        gamerNumber = (gamerNumber - 50) * 6 + 50 * 12.5;
+        gamerNumber = (gamerNumber - 50) * 4.5 + 50 * 12.5;
     }
     gamingPrice += gamerNumber;
     return gamingPrice;
